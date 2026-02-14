@@ -1,0 +1,15 @@
+[submodule "layers/meta-intel-fpga"]
+	path = layers/meta-intel-fpga
+	url = https://git.yoctoproject.org/meta-intel-fpga
+	branch = walnascar
+[submodule "layers/openembedded-core"]
+	path = layers/openembedded-core
+	url = https://git.openembedded.org/openembedded-core
+	branch = walnascar
+[submodule "layers/bitbake"]
+	path = layers/bitbake
+	url = https://git.openembedded.org/bitbake
+	branch = yocto-5.2.4
+[submodule "layers/meta-de1-soc"]
+	path = layers/meta-de1-soc
+	url = git@github.com:joelanderson000/meta-de1-soc.git
