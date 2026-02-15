@@ -13,3 +13,8 @@
 [submodule "layers/meta-de1-soc"]
 	path = layers/meta-de1-soc
 	url = git@github.com:joelanderson000/meta-de1-soc.git
+[submodule "u-boot-socfpga"]
+	path = u-boot-socfpga
+	url = https://github.com/altera-fpga/u-boot-socfpga.git
+	sparsecheckout = 1
+	branch = socfpga_v2025.07
