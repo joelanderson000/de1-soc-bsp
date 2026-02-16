@@ -10,6 +10,8 @@ export UBOOT_VER=v2025.01
 
 export MACHINE="de1-soc"
 
+export PATH="$CWD/u-boot-socfpga/arch/arm/mach-socfpga/cv_bsp_generator:$PATH"
+
 # Set Linux Version
 echo "LINUX_VERSION        = $LINUX_VER"
 LINUX_SOCFPGA_BRANCH=socfpga-$LINUX_VER-lts
